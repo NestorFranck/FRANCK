@@ -1,0 +1,748 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500&family=Roboto:wght@100;300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.langues{
+    background-color: rgb(59, 57, 57);
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contenu_langue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 15px;
+}
+.contenu_langue li, a{
+   text-decoration: none;
+   list-style: none;
+}
+.contenu_langue a{
+   margin-right: 20px;
+   font-size: 18px;
+   color: #fff;
+}
+.contenu_langue .noire{
+   background-color: #000;
+   color: #fff;
+   border: 1px solid black;
+   padding: 6px;
+   border-radius: 4px;
+}
+.contenu_langue span a{
+    position: relative;
+    right: -280px;
+    background-color: gainsboro;
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+    padding: 4px;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+
+.contenu_langue span a:hover{
+    background-color: black ;
+    color: red;
+    border: none;
+}
+.contenu_langue p{
+  position: relative;
+  left: -90px;
+}
+header{
+    position: fixed;
+    width: 100%;
+}
+.contenu_navBar{
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+}
+.contenu_navBar .logo img{
+    width: 150px;
+    height: 60px;
+} 
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+}
+.navbar li, a{
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.navbar a{
+    position: relative;
+    left: 200px;
+    margin-right: 20px;
+    color: black;
+}
+.navbar a:hover{
+    color: orange;
+    border-bottom: 2px solid black;
+}
+.navbar span{
+    font-size: 16px;
+}
+
+.sectionA{
+    background: url('../images/img2.jpg'); 
+    background-size: 100%;
+    width: 100%;
+    height: 900px;
+    background-repeat: no-repeat;
+
+}
+
+.sectionA p{
+    color : #fff;
+    font-weight: bolder;
+    font-size: 50px;
+    padding: 200px;
+    text-align: center;
+
+}
+
+.sectionA a{
+   text-decoration: none;
+   color: #000;
+   border: 1px solid yellow;
+   border-radius: 4px;
+   background-color: yellow;
+   font-size: 20px;
+   text-transform: uppercase;
+   margin-left: 50%;
+  position: absolute;
+  margin-top: -160px;
+  font-weight: bold;
+  font-family: arial;
+  padding: 6px;
+}
+
+.sectionA a:hover{
+    background-color: orange;
+    border: none;
+ }
+.sectionB {
+background-color: rgb(214, 212, 212);
+text-align: center;
+ padding: 50px;
+ }
+
+ .sectionB h2 {
+    font-weight: bolder;
+    font-size: 45px;
+    font-family: 400;
+     }
+
+.sectionB h2 {
+    font-weight: bolder;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.sectionB p{
+    margin: 30px;
+    font-size: 18px;
+}
+
+.cartes{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.cartes div{
+    margin-right: 90px; 
+    text-align: center;
+}
+
+.cartes .carteA h1{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.cartes .carteA a {
+
+    text-decoration: none;
+    color: #000;
+    font-family: Arial;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 10px;
+    
+}
+
+.cartes .carteA a:hover{
+    background-color: rgb(139, 141, 141);
+}
+
+.cadre{
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.cadreA{
+width: 620px;
+height: 350px;
+background-image: url('../images/img3.jpg');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+
+.cadre .cadreB{
+    width: 700px;
+    height: 350px;
+    background-image: url('../images/img1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 20px;
+    }
+.cadreA .contenu{
+    padding: 30px;
+    margin-top: 230px;   
+ }
+
+ .cadreA .contenu a{
+    font-weight: bold; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background-color: #000;
+    padding: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+ }
+
+ .cadreA .contenu P{
+    font-weight: bold; 
+    color: #000;
+    background-color: #fff;
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+    margin-left: -2px;
+
+ }
+
+ .cadreB .contenu{
+    padding: 30px;
+    margin-top: 230px;  
+ }
+ .cadreB .contenu a{
+    font-weight: bold; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background-color: #000;
+    padding: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+ }
+
+ .cadreB .contenu P{
+    font-weight: bold; 
+    color: #000;
+    background-color: #fff;
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+    margin-left: -2px;
+
+ }
+.nouvelles{
+    height: 120PX;
+    padding: 200px;
+    display: flex;
+    margin-left: 2%;
+    margin-right: 2%;
+    justify-content: center; 
+    background: url('../images/media.jpg') no-repeat ;
+    background-size: 100%;
+}
+
+.nouvelles .contenu_new h1{
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    font-family: Arial;
+
+}
+
+.nouvelles .contenu_new a{
+       text-decoration: none;
+       margin-left: 50%;
+       color: black;
+       font-size:20px;
+       font-weight: bold;
+       font-family: arial;
+       background-color: yellow;
+       padding: 8px;
+       text-transform: uppercase;
+       border-radius: 4px;
+}
+
+.nouvelles .contenu_new a:hover{
+    background-color: orange;
+    border: none;
+
+}
+
+footer{
+        margin-top: 40px;
+        background: #000;
+        color: #fff;
+        width: 100%;  
+        height: 370px; 
+
+}
+
+
+.pieds_contenu{
+     display: flex;
+     padding: 20px;
+}
+
+.pieds_contenu .titre h3{
+ text-transform: uppercase;
+ padding: 10px;
+ font-size: 15px;
+ color: orangered
+    
+}
+
+.pieds_contenu .titre{
+    margin-right: 40px;
+       
+   }
+
+.pieds_contenu .titre  ul li {
+    list-style: none;      
+   }
+
+   .pieds_contenu .titre  ul li a {
+    text-decoration: none;   
+    color: #fff; 
+    font-size: 14px;
+    
+   }
+
+   .pieds_contenu .titre span {
+     color: black;
+     background-color: #fff;
+     padding: 8px;
+     text-transform: uppercase;
+     font-weight: bold;
+    
+   }
+
+   .pieds_contenu .titre .foot_pied {
+    text-decoration: none;   
+   }
+
+   .reseaux img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 5px;
+   }
+
+   .contenu_copy{ 
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+   }
+
+   .contenu_copy .reseaux{ 
+    display: flex;
+   }
+
+   .contenu_copy .reseaux a{ 
+    text-decoration: none;
+     margin-right: 20px;
+   }
+
+   .contenu_copy .reseaux p{ 
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 18px;
+   }
+
+   /* style qui sommes-nous */
+   .sectionA_Quisomme{
+    height: 520px;
+    background:  url(../images/albinos-africain.jpg);
+    background-size: 100%;
+    
+   }
+.section_sommesnous h2{
+
+    background-image: url(../images/image.jpg);
+    background-repeat: no-repeat;
+    height: 380px;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+
+}
+.section_sommesnous h2 span{
+    color: orangered;
+    font-size: 50px;
+
+}
+.section_sommesnous  .section_sommesnous_contenu h2{
+    padding: 130px;
+
+}
+
+.section_sommesnous h2 #id1{
+    color: blue;
+    font-size: 50px;
+}
+
+.section_sommesnous h2 #id2{
+    color: yellow;
+    font-size: 50px;
+
+}
+   .cartes .carteA_quisomme p{
+    font-size: 24px;
+    font-family: sans-serif;
+   }
+
+   .cartes .carteA_quisomme a{
+    border: 1px solid black;
+    padding: 8px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+   }
+
+  .nouvelles_sommesnous .contenu_new_sommenous{
+    background-image: url(../images/enfant.jpg);
+   height: 500px;
+   background-repeat: no-repeat;
+   background-size: 100%;
+   }
+
+   .nouvelles_sommesnous .contenu_new_sommenous h1{
+      font-size: 60px;
+      font-weight: bold;
+      color: #fff;
+      text-align: center;
+      padding: 180px;
+   
+   }
+
+   /* Style de la page de ce que nous faisons */
+
+   .sectionA_faison{
+    background: url('../images/images.jfif'); 
+    background-size: 100%;
+    height: 700px;
+}
+
+.sectionA_faison p{
+
+    color:#fff;
+    text-align: center;
+    padding: 160px;
+    font-weight: bolder;
+    font-size: 40px;
+   
+}
+.sectionA_faison a{
+    text-decoration: none;
+    color: #000;
+    border: 1px solid yellow;
+    border-radius: 4px;   
+    background-color: yellow;
+   font-size: 20px;
+   text-transform: uppercase;
+   margin-left: 50%;
+   padding: 7px;
+}
+
+
+.nouvelles_faisons{
+    height: 120PX;
+    padding: 200px;
+    display: flex;
+    margin-left: 2%;
+    margin-right: 2%;
+    justify-content: center; 
+    background: url('../images/enfantAlbinos.jfif') no-repeat ;
+    background-size: 100%;
+}
+
+.nouvelles_faisons .contenu_new_faisons h1{
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    font-family: Arial;
+
+}
+
+.nouvelles_faisons .contenu_new_faisons a{
+    text-decoration: none;
+    margin-left: 50%;
+    color: black;
+    font-size:20px;
+    font-weight: bold;
+    font-family: arial;
+    background-color: yellow;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+
+.nouvelles_faisons .contenu_new_faisons a:hover{
+ background-color: orange;
+ border: none;
+
+}
+
+/* Style de la page être impliuqué */
+
+.sectionA_implique{
+    background: url('../images/ImpliqueB.jpg'); 
+    background-size: 100%;
+    height: 700px;
+}
+
+.sectionA_implique p{
+
+    color:blue;
+    text-align: center;
+    padding: 160px;
+    font-weight: bolder;
+    font-size: 40px;
+   
+}
+.sectionA_implique a{
+    text-decoration: none;
+    color: #000;
+    border: 1px solid yellow;
+    border-radius: 4px;   
+    background-color: yellow;
+   font-size: 20px;
+   text-transform: uppercase;
+   margin-left: 50%;
+   padding: 7px;
+}
+
+.nouvelles_implique{
+    height: 120PX;
+    padding: 200px;
+    display: flex;
+    margin-left: 2%;
+    margin-right: 2%;
+    justify-content: center; 
+    background: url('../images/impliqueA.jpg') no-repeat ;
+    background-size: 100%;
+}
+
+.nouvelles_implique .contenu_new_faisons h1{
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: blue;
+    text-align: center;
+    font-family: Arial;
+
+}
+
+.nouvelles_implique .contenu_new_faisons a{
+    text-decoration: none;
+    margin-left: 50%;
+    color: black;
+    font-size:20px;
+    font-weight: bold;
+    font-family: arial;
+    background-color: yellow;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+
+.nouvelles_implique .contenu_new_faisons a:hover{
+ background-color: orange;
+ border: none;
+
+}
+
+/* Style de la page new */
+.sectionA_new{
+    background: url('../images/mujer.jpg'); 
+    background-size: 100%;
+    height: 700px;
+}
+
+.sectionA_new p{
+
+    color:#fff;
+    text-align: center;
+    padding: 160px;
+    font-weight: bolder;
+    font-size: 60px; 
+}
+
+.sectionA_new a{
+    text-decoration: none;
+    color: #000;
+    border: 1px solid yellow;
+    border-radius: 4px;   
+    background-color: yellow;
+   font-size: 20px;
+   text-transform: uppercase;
+   margin-left: 50%;
+   padding: 7px;
+}
+
+.cartes_new{
+    height: 500px;
+    display: flex;
+   justify-content: center;
+
+}
+
+.cartes_new  img {
+    padding: 50px;
+}
+
+.cartes_new .image1 img {
+    width: 50%;
+    height: 380px;
+  
+}
+
+.cadreA_new{
+    width: 620px;
+    height: 350px;
+    background-image: url('../images/autre.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    }
+
+    .cadreA_new .contenu{
+        padding: 30px;
+        margin-top: 230px;   
+     }
+    
+     .cadreA_new .contenu a{
+        font-weight: bold; 
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fff;
+        background-color: #000;
+        padding: 5px;
+        text-transform: uppercase;
+        text-decoration: none;
+     }
+    
+     .cadreA_new .contenu P{
+        font-weight: bold; 
+        color: #000;
+        background-color: #fff;
+        padding: 5px;
+        margin: 5px;
+        font-size: 20px;
+        margin-left: -2px;
+    
+     }
+
+     .cadreB_new{
+        width: 700px;
+        height: 350px;
+        background-image: url('../images/ImpliqueC.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin-left: 20px;
+        }
+
+        .cadreB_new .contenu{
+            padding: 30px;
+            margin-top: 230px;   
+         }
+        
+         .cadreB_new .contenu a{
+            font-weight: bold; 
+            font-family: Arial, Helvetica, sans-serif;
+            color: #fff;
+            background-color: #000;
+            padding: 5px;
+            text-transform: uppercase;
+            text-decoration: none;
+         }
+        
+         .cadreB_new .contenu P{
+            font-weight: bold; 
+            color: #000;
+            background-color: #fff;
+            padding: 5px;
+            margin: 5px;
+            font-size: 20px;
+            margin-left: -2px;
+        
+         }
+
+         .nouvelles_new{
+            height: 120PX;
+            padding: 200px;
+            display: flex;
+            margin-left: 2%;
+            margin-right: 2%;
+            justify-content: center; 
+            background: url('../images/AlbinoTanzania.jpg') no-repeat ;
+            background-size: 100%;
+        }
+
+        .nouvelles_new .contenu_new h1{
+            font-weight: bold;
+            font-size: 40px;
+            text-transform: uppercase;
+            color: #fff;
+            text-align: center;
+            font-family: Arial;
+        
+        }
+        
+        .nouvelles_new .contenu_new a{
+               text-decoration: none;
+               margin-left: 50%;
+               color: black;
+               font-size:20px;
+               font-weight: bold;
+               font-family: arial;
+               background-color: yellow;
+               padding: 8px;
+               text-transform: uppercase;
+               border-radius: 4px;
+        }
+        
+        .nouvelles_new .contenu_new a:hover{
+            background-color: orange;
+            border: none;
+        
+        }
